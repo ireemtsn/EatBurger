@@ -8,8 +8,9 @@ export const Navbar = () => {
   return(
     <div className='navbar'>
         <div className='main'>
-        <div>
+       
             <img src={BurgerLogo} alt=""></img>
+            <div className='mainLink'>
             <Link to="/">Anasayfa
             </Link>
             <Link to="/menu">Menü
