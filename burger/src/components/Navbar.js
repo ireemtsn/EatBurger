@@ -1,7 +1,13 @@
 import React from 'react';
+import BurgerLogo from '../assets/logo2.jpg';
 
 export const Navbar = () => {
   return(
-    <div>Navbar</div>
+    <div className='navbar'>
+        <div className='main'>
+            <img src={BurgerLogo} alt=""></img>
+        </div>
+
+    </div>
   ) 
 };
