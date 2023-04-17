@@ -1,6 +1,7 @@
 import React from 'react';
 import BurgerLogo from '../assets/logo2.jpg';
 import {Link} from 'react-router-dom'
+import '../styles/Navbar.css';
 
 
 export const Navbar = () => {
