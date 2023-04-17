@@ -1,6 +1,10 @@
 
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Menu } from './components/Menu';
+import { About } from './components/About';
+import { Contact } from './components/Contact';
 
 function App() {
   return (
