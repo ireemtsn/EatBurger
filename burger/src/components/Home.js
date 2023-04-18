@@ -6,6 +6,7 @@ export const Home = () => {
     <div>
       <div>
         <Link to="/menu">
+          <button>Sipariş Ver</button>
         </Link>
       </div>
     </div>
