@@ -6,6 +6,10 @@ import { Menu } from './components/Menu';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
+
+
+
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
         <Route path="/about" exact element={<About />} />
         <Route path="/contact" exact element={<Contact />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

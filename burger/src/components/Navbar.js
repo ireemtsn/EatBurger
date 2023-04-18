@@ -8,7 +8,7 @@ export const Navbar = () => {
   return(
     <div className='navbar'>
         <div className='main'>
-       
+
             <img src={BurgerLogo} alt=""></img>
             <div className='mainLink'>
             <Link to="/">Anasayfa
@@ -22,8 +22,6 @@ export const Navbar = () => {
             </div>
        
         </div>
-      
-        
     </div>
-  ) 
-};
+  );
+}
