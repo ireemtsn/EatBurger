@@ -1,6 +1,8 @@
 import React from 'react';
 import { Data } from '../helpers/Data';
-import { MenuItem } from '@mui/material';
+import '../styles/Menu.css';
+import MenuItem from './MenuItem';
+
 
 export const Menu = () => {
   return(
@@ -15,8 +17,7 @@ export const Menu = () => {
               image={menuItem.image}
               name={menuItem.name}
               content={menuItem.content}
-              price={menuItem.price}
-            />
+              price={menuItem.price}/>
           );
         })}
       </div>
