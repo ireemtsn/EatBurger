@@ -17,7 +17,7 @@ export const Navbar = () => {
             </Link>
             <Link to="/about">Hakkımızda
             </Link>
-            <Link to="/contact">İletişim
+            <Link to="/contact">İletişimm
             </Link>
             </div>
        
