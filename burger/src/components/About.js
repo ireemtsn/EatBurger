@@ -1,5 +1,6 @@
 import React from 'react';
-import burgerImage from '../assets/burger.jpg'
+import burgerImage from '../assets/banneryeni.jpg';
+import '../styles/About.css';
 
 export const About = () => {
   return(
