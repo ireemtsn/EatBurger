@@ -1,31 +1,37 @@
 import React from 'react';
-import burgerContact from '../assets/burgercontact.jpg';
+import BannerImage from '../assets/burgerlogo.png';
 import '../styles/Contact.css';
 
 export const Contact = () => {
-return(
-<div className='contact'>
-   <div  
-   style={{backgroundImage: `url(${burgerContact})`  }}>
-</div>
-<div className='contactForm'>
-   <h2>Bizimle İletişime Geçiniz..</h2>
-   <form>
-      <label>Mail adresiniz:</label>
-      <input type='text'
-         name='name'
-         placeholder='Lütfen mail adresinizi giriniz..'>
-      </input>
-
-      <label>Mesajınız:</label>
-      <textarea
-         name='massage'
-         rows="6"
-         placeholder='Lütfen mesajınızı giriniz..'>
-      </textarea>
-
-   </form>
-</div>
-</div>
-) ;
+  return (
+    <div className="contact">
+      <div
+        className="leftSide"
+        style={{ backgroundImage: `url(${BannerImage})` }}
+      ></div>
+      <div className="rightSide">
+        <h3>Bizimle İletişime Geçin</h3>
+        <form>
+          <label>Ad Soyad:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Lütfen adınızı soyadınızı giriniz..."
+          />
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Lütfen emailinizi giriniz..."
+          />
+          <label>Mesajınız:</label>
+          <textarea
+            rows="6"
+            name="message"
+            placeholder="Lütfen mesajınızı giriniz..."
+          ></textarea>
+        </form>
+      </div>
+    </div>
+  );
 };
