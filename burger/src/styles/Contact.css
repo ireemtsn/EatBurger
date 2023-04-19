@@ -27,6 +27,7 @@
   font-size: 40px;
   margin-right: 110px;
   color: brown;
+  text-align: center;
 }
 
 form {
@@ -69,14 +70,20 @@ form label {
   color: grey;
 }
 
-form button {
-  margin-top: 40px;
-  width: 140px;
-  height: 40px;
+
+.contact  button {
   border: none;
-  background-color: brown;
-  color: whitesmoke;
-  font-size: 15px;
   cursor: pointer;
+  background-color: brown;
+  height: 40px;
+  width: 180px;
+  color: white;
+  font-size: 15px;
   border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 310px;
 }
+
+

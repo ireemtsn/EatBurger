@@ -30,6 +30,7 @@ export const Contact = () => {
             name="message"
             placeholder="Lütfen mesajınızı giriniz..."
           ></textarea>
+          <button>Mesajınızı Gönderiniz</button>
         </form>
       </div>
     </div>
